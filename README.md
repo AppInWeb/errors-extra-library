@@ -14,7 +14,7 @@ composer.json
     "repositories": [
         {
             "type": "vcs",
-            "url":  "https://gitlab.appinwebgroup.net/tma/appinweb/errors-extra-library.git"
+            "url":  "https://github.com/AppInWeb/errors-extra-library.git"
         }
     ]
 ```
