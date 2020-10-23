@@ -1,0 +1,15 @@
+<?xml version="1.0" ?>
+
+<container xmlns="http://symfony.com/schema/dic/services"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://symfony.com/schema/dic/services http://symfony.com/schema/dic/services/services-1.0.xsd">
+
+    <services>
+        <service id="appinweb.errors_extra_library.exception_configuration" class="AppInWeb\ErrorsExtraLibrary\Domain\Exception\Configuration">
+            <argument>%appinweb_errors_extra_library.force_format%</argument>
+            <argument>%appinweb_errors_extra_library.exception_http_status_codes%</argument>
+            <argument>%appinweb_errors_extra_library.exception_show_messages%</argument>
+            <argument>%appinweb_errors_extra_library.exception_log_levels%</argument>
+        </service>
+    </services>
+</container>
