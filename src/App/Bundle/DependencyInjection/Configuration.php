@@ -13,9 +13,9 @@ class Configuration implements ConfigurationInterface
      */
     public function getConfigTreeBuilder()
     {
-        $treeBuilder = new TreeBuilder();
+        $treeBuilder = new TreeBuilder('appinweb_errors_extra_library');
+        $rootNode = $treeBuilder->getRootNode();
 
-        $rootNode = $treeBuilder->root('appinweb_errors_extra_library');
         $rootNode
             ->children()
                 ->scalarNode('force_format')->defaultValue(null)->end()
