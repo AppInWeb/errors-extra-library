@@ -6,9 +6,9 @@
         "psr-4": { "AppInWeb\\ErrorsExtraLibrary\\": "src/"}
     },
     "require": {
-        "php": ">=5.5",
-        "symfony/http-kernel": ">=2.3",
-        "psr/log": "~1.0"
+        "php": ">=7.1",
+        "symfony/http-kernel": "~6.0",
+        "psr/log": "~3.0"
     },
     "suggest": {
         "symfony/symfony": "Because we have a bundle for that. :)"
